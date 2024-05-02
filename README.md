@@ -26,9 +26,13 @@ The line for which the the error between the predicted values and the observed v
 ![LinearRegressionLine](https://github.com/darien2112/Regression-Methods/blob/main/Resources/LinearRegressionLine.png)
 
 To define and measure the error of our model we define the cost function as the sum of the squares of the residuals. The cost function is denoted by
+
 ![costFunction](https://github.com/darien2112/Regression-Methods/blob/main/Resources/costFunction.png)
+
 where the hypothesis function h(x) is denoted by
+
 ![hypothesisFunction](https://github.com/darien2112/Regression-Methods/blob/main/Resources/hypothesisFunction.png)
+
 and m is the total number of training examples in our data-set.
 
 Our objective is to find the model parameters so that the cost function is minimum. We will use Gradient Descent to find this.
