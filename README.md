@@ -10,11 +10,11 @@ This technique is used for forecasting, time series modelling and finding the ca
 
 The objective of a linear regression model is to find a relationship between one or more features(independent variables) and a continuous target variable(dependent variable). When there is only feature it is called Uni-variate Linear Regression and if there are multiple features, it is called Multiple Linear Regression.
 
-![DiffLinearRegression](https://github.com/darien2112/Regression-Methods/tree/main/Resources/DiffLinearRegression.png)
+![DiffLinearRegression](https://github.com/darien2112/Regression-Methods/blob/main/Resources/DiffLinearRegression.png)
 
 The linear regression model can be represented by the following equation
 
-![LinearRegression](https://github.com/darien2112/Regression-Methods/tree/main/Resources/LinearRegression.png)
+![LinearRegression](https://github.com/darien2112/Regression-Methods/blob/main/Resources/LinearRegression.png)
 
 **Y** is the predicted value
 **θ₀** is the bias term.
@@ -23,12 +23,12 @@ The linear regression model can be represented by the following equation
 
 The line for which the the error between the predicted values and the observed values is minimum is called the best fit line or the regression line. These errors are also called as residuals. The residuals can be visualized by the vertical lines from the observed data value to the regression line.
 
-![LinearRegressionLine](https://github.com/darien2112/Regression-Methods/tree/main/Resources/LinearRegressionLine.png)
+![LinearRegressionLine](https://github.com/darien2112/Regression-Methods/blob/main/Resources/LinearRegressionLine.png)
 
 To define and measure the error of our model we define the cost function as the sum of the squares of the residuals. The cost function is denoted by
-![costFunction](https://github.com/Ansu-John/Regression-Models/blob/main/resources/costFunction.png)
+![costFunction](https://github.com/darien2112/Regression-Methods/blob/main/Resources/costFunction.png)
 where the hypothesis function h(x) is denoted by
-![hypothesisFunction](https://github.com/darien2112/Regression-Methods/tree/main/Resources/hypothesisFunction.png)
+![hypothesisFunction](https://github.com/darien2112/Regression-Methods/blob/main/Resources/hypothesisFunction.png)
 and m is the total number of training examples in our data-set.
 
 Our objective is to find the model parameters so that the cost function is minimum. We will use Gradient Descent to find this.
@@ -59,7 +59,7 @@ Logistic regression is the appropriate regression analysis to conduct when the d
 Polynomial Regression is a special case of Linear Regression where we fit the polynomial equation on the data with a curvilinear relationship between the dependent and independent variables. It is a form of regression analysis in which the relationship between the independent variables and dependent variables are modeled in the nth degree polynomial. 
 Polynomial Regression models are usually fit with the method of least squares.The least square method minimizes the variance of the coefficients,under the Gauss Markov Theorem.
 
-![PolynomialRegression](https://github.com/darien2112/Regression-Methods/tree/main/Resources/PolynomialRegression.png)
+![PolynomialRegression](https://github.com/darien2112/Regression-Methods/blob/main/Resources/PolynomialRegression.png)
 
 Polynomial Regression does not require the relationship between the independent and dependent variables to be linear in the data set,This is also one of the main difference between the Linear and Polynomial Regression. It is generally used when the points in the data are not captured by the Linear Regression Model and the Linear Regression fails in describing the best result clearly.
 
@@ -67,7 +67,7 @@ Polynomial Regression does not require the relationship between the independent 
 
 Decision tree builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. A decision node has two or more branches, each representing values for the attribute tested. Leaf node represents a decision on the numerical target. The topmost decision node in a tree which corresponds to the best predictor called root node.
 
-![DecisionTree](https://github.com/darien2112/Regression-Methods/tree/main/Resources/DecisionTree.png)
+![DecisionTree](https://github.com/darien2112/Regression-Methods/blob/main/Resources/DecisionTree.png)
 
 Note : Tree based models are not designed to work with very sparse features. When dealing with sparse input data (e.g. categorical features with large dimension), we can either pre-process the sparse features to generate numerical statistics, or switch to a linear model, which is better suited for such scenarios.
 
@@ -77,7 +77,7 @@ A Random Forest is an ensemble technique capable of performing both regression a
 
 These results from the various decision trees are aggregated, through model votes or averaging, into a single ensemble model that ends up outperforming any individual decision tree’s output.
 
-![RandomForest](https://github.com/darien2112/Regression-Methods/tree/main/Resources/RandomForest.png)
+![RandomForest](https://github.com/darien2112/Regression-Methods/blob/main/Resources/RandomForest.png)
 
 ### Ensemble Learning
 An Ensemble method is a technique that combines the predictions from multiple machine learning algorithms together to make more accurate predictions than any individual model. A model comprised of many models is called an Ensemble model.
@@ -106,7 +106,7 @@ The basic principle behind the working of Support vector machines is simple – 
 
 According to SVM, we have to find the points that lie closest to both the classes. These points are known as support vectors. In the next step, we find the proximity between our dividing plane and the support vectors. The distance between the points and the dividing line is known as margin. The aim of an SVM algorithm is to maximize this very margin. When the margin reaches its maximum, the hyperplane becomes the optimal one.
 
-![SVM](https://github.com/darien2112/Regression-Methods/tree/main/Resources/SVM.png)
+![SVM](https://github.com/darien2112/Regression-Methods/blob/main/Resources/SVM.png)
 
 The SVM model tries to enlarge the distance between the two classes by creating a well-defined decision boundary. In the above case, our hyperplane divided the data. While our data was in 2 dimensions, the hyperplane was of 1 dimension. For higher dimensions, say, an n-dimensional Euclidean Space, we have an n-1 dimensional subset that divides the space into two disconnected components.
 
